@@ -10,6 +10,17 @@ For example, the string "This website is for losers LOL!" would become "Ths wbst
 Note: for this kata y isn't considered a vowel.
 */
 
+/*
+The function takes a string as a parameter.
+Set up a new string to add the consonants to.
+The for loop only needs to go to the length of the string it's assessing.
+Set each index to lowercase with a variable, lower, before checking it so you don't have to worry about making the entire string upper or lower then figuring out how to make it go back to the original state.
+Check to make sure no vowels are let into the new string with "lower !== vowel".
+Add teh consonants to new string.
+Return new string
+Console.log and call the function with the string as the parameter.
+*/
+
 
 
 function disemvowel(str) {
